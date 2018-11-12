@@ -1,0 +1,67 @@
+<?php 
+session_start()
+?>
+<?php
+if isset(!$_SESSION['id'])
+{
+  header(Location: login.php);
+  exit();
+}
+ ?>
+<html>
+<head>
+<link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.css">  
+  <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="style.css">
+  <script src="js/jquery.js" type="text/javascript"></script>
+  <script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+</head>
+<div class="headersection templete clear">
+    <a href="#">
+      <div class="logo">
+        <img src="CUET_logo_transparent.png" alt="Logo"/>
+        <h2>Class Room Feedback System </h2>
+        
+      </div>
+    </a>
+    
+  </div>
+
+<body>
+<div class="navsection templete">
+  <ul>
+    <li><a  href="index.html">Home</a></li>
+    <li><a href="About.php">About</a></li>  
+    
+  </ul>
+</div>
+<div class="contentsection contemplete clear">
+    <div class="maincontent clear">
+      <div class="about">
+
+
+<h1><center>
+Registration Page</center>
+</h1></br>
+</br>
+
+
+<h4><center><a href="test1.php">Register as Teacher</a></center></h4>
+<h4><center><a href="a_s.php">Register as Student</a></center>
+</h4>
+
+</div>
+</div>
+</div>
+<div class="footersection templete clear">
+    <div class="footermenu clear">
+    <ul>
+      Coded By:Md.Jayed Bin Murshed &nbsp &nbsp A.K.M. Raihan&nbsp &nbspMd. Shakhawat Hossain</br>
+      
+      Supervised By:Md. Shafiul Alam &nbsp&nbspLecturer ,dept of CSE,CUET&nbsp&nbsp</br>Md. Sabir Hossain&nbsp&nbspLecturer ,dept of CSE,CUET 
+    </ul>
+    </div>
+    
+  </div>
+</body>
+<html>
